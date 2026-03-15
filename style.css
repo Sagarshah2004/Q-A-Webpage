@@ -1,0 +1,30 @@
+body{
+    font-family: Arial;
+    margin:40px;
+}
+
+.qa-item{
+    border-bottom:1px solid #ccc;
+    padding:10px 0;
+}
+
+.question{
+    font-weight:bold;
+    cursor:pointer;
+    display:flex;
+    justify-content:space-between;
+}
+
+.answer{
+    display:none;
+    margin-top:5px;
+    transition:all 0.3s ease;
+}
+
+.answer.show{
+    display:block;
+}
+
+.icon{
+    font-weight:bold;
+}
